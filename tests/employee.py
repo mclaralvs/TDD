@@ -24,4 +24,4 @@ class Employee:
             else:
                 return self.salary * 0.8
         else:
-            raise "Cargo inválido"
+            raise TypeError("Cargo inválido")
